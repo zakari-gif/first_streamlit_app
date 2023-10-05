@@ -33,6 +33,7 @@ streamlit.write('The user entered ', fruit_choice)
 import requests
 fruityvice_response= requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice)
 
+pip install snowflake-connector-python==2.8.3
 import snowflake.connector
 
 
